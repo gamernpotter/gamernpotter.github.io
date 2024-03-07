@@ -1,3 +1,4 @@
+const url = window.location.href;
 window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", ({ matches }) => {
@@ -35,5 +36,5 @@ gridItems.forEach(function (gridItem) {
 });
 function openFile(filePath) {
   // Use window.location.href to redirect to the specified page
-  window.location.href = "https://ncsources.github.io" + "/" + filePath;
+  window.location.href = url + "/games/" + filePath;
 }
