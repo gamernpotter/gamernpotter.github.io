@@ -6,6 +6,7 @@ right {
   text-align: right;
 }
 body {
+  --imgRoot: img/;
   font-family: SourceCodePro;
   background-color: #3d3d3d;
   color: #c7c7c7;
