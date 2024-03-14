@@ -40,5 +40,5 @@ body {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("img/" var(bgImg))
+  background-image: url("img/" var(--background-image))
 }
