@@ -36,5 +36,5 @@ gridItems.forEach(function (gridItem) {
 });
 function openFile(filePath) {
   // Use window.location.href to redirect to the specified page
-  window.location.href = url + "/games/" + filePath;
+  window.location.href = "/games/" + filePath;
 }
